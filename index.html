@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Proyecto</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <div class="portada-container">
+                <img src="img/descarga (27).jpeg" alt="Imagen de Portada" class="portada">
+            </div>
+            <p>Bienvenido a la página de inicio.</p>
+        </section>
+        
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="productos-container">
+                <div class="card">
+                    <img src="img/gengar-ezgif.com-resize.gif" alt="Producto 1">
+                </div>
+                <div class="card">
+                    <img src="img/gengarosa.gif" alt="Producto 2">
+                </div>
+                <div class="card">
+                    <img src="img/snorlax2-ezgif.com-resize.gif" alt="Producto 3">
+                </div>
+            </div>
+        </section>
+        
+        <section id="reseñas">
+            <h2>Reseñas</h2>
+            <div class="reseñas-container">
+                <div class="reseña">Reseña 1</div>
+                <div class="reseña">Reseña 2</div>
+                <div class="reseña">Reseña 3</div>
+            </div>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/{your_form_id}" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Mi Proyecto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
